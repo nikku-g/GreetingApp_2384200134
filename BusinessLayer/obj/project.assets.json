@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ModelLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ModelLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelLayer.dll": {}
+        }
+      },
+      "ReposatoryLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ReposatoryLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReposatoryLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModelLayer/1.0.0": {
+      "type": "project",
+      "path": "../ModelLayer/ModelLayer.csproj",
+      "msbuildProject": "../ModelLayer/ModelLayer.csproj"
+    },
+    "ReposatoryLayer/1.0.0": {
+      "type": "project",
+      "path": "../ReposatoryLayer/ReposatoryLayer.csproj",
+      "msbuildProject": "../ReposatoryLayer/ReposatoryLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ModelLayer >= 1.0.0",
+      "ReposatoryLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\BusinessLayer\\BusinessLayer.csproj",
+      "projectName": "BusinessLayer",
+      "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\BusinessLayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\NIKHIL PRATAP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\ModelLayer\\ModelLayer.csproj": {
+              "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\ModelLayer\\ModelLayer.csproj"
+            },
+            "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\ReposatoryLayer\\ReposatoryLayer.csproj": {
+              "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\ReposatoryLayer\\ReposatoryLayer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
