@@ -1016,11 +1016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
+      "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
       "projectName": "HelloGreetingApplication",
-      "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
+      "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
       "packagesPath": "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\HelloGreetingApplication\\obj\\",
+      "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1041,8 +1041,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\New folder\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }

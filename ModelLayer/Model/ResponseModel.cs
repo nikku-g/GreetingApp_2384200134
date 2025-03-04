@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ModelLayer.Model
 {
+    /// <summary>
+    /// Class Providing Http Method Message
+    /// </summary>
     public class ResponseModel<T>
     {
         public bool Success { get; set; } = false;

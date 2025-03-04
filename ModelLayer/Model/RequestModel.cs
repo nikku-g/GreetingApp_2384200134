@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ModelLayer.Model
 {
+    /// <summary>
+    /// Class Providing key and value for Data
+    /// </summary>
     public class RequestModel
     {
         public String key { get; set; }

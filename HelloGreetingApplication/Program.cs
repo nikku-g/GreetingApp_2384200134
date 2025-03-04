@@ -1,3 +1,5 @@
+using BusinessLayer.Interface;
+using BusinessLayer.Service;
 using NLog;
 using NLog.Web;
 
@@ -14,15 +16,17 @@ try
 
     // Add services to the container.
     builder.Services.AddControllers();
+    builder.Services.AddScoped<IGreetingBL, GreetingBL>();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 
     var app = builder.Build();
 
-    // Configure the HTTP request pipeline.
+    // Configure Swagger
     app.UseSwagger();
     app.UseSwaggerUI();
 
+    // Configure the HTTP request pipeline.
     app.UseHttpsRedirection();
     app.UseAuthorization();
     app.MapControllers();

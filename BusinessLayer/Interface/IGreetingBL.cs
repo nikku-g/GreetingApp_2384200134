@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Interface
 {
-    internal class IGreetingBL
+    /// <summary>
+    /// This is an interface class
+    /// </summary>
+    public interface IGreetingBL
     {
+        /// <summary>
+        /// This method is to print message
+        /// </summary>
+        public string GreetMessage();
     }
 }

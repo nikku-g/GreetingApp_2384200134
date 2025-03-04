@@ -20,3 +20,14 @@ C:\Users\NIKHIL PRATAP\Desktop\training\pro\New folder\ModelLayer\obj\Debug\net6
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\New folder\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\New folder\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\New folder\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
