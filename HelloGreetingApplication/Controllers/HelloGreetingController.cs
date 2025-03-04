@@ -5,6 +5,7 @@ using NLog;
 
 namespace HelloGreetingApplication.Controllers
 {
+
     /// <summary>
     /// Class Providing API for HelloGreeting
     /// </summary>
@@ -12,6 +13,8 @@ namespace HelloGreetingApplication.Controllers
     [Route("[controller]")]
     public class HelloGreetingController : ControllerBase
     {
+        ResponseModel<string> responseModel;
+
         private readonly IGreetingBL _greetingBl;
 
         public HelloGreetingController(IGreetingBL greetingBL)
@@ -24,15 +27,23 @@ namespace HelloGreetingApplication.Controllers
         /// </summary>
         /// <return>"_greetingBl.GreetMessage()" </return>
         [HttpGet]
-        public IActionResult Message()
+        public IActionResult GetMessage(String? FirstName, String? LastName)
         {
 
-            return Ok(_greetingBl.GreetMessage());
+            logger.Info($"Get request, greet message first: {FirstName}, last: {LastName}");
+            string message = _greetingBl.GreetMessage(FirstName, LastName);
+            responseModel = new ResponseModel<string>();
+            {
+                responseModel.Success = true;
+                responseModel.Message = "Successfully";
+                responseModel.Data = message;
+            }
+            return Ok(responseModel);
         }
 
 
         private static readonly Logger logger = LogManager .GetCurrentClassLogger();
-        ResponseModel<string> responseModel;
+        
 
 
         /// <summary>

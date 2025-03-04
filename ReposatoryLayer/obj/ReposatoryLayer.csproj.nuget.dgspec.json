@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj": {}
+    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj": {
+    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj",
         "projectName": "ReposatoryLayer",
-        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj",
+        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj",
         "packagesPath": "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

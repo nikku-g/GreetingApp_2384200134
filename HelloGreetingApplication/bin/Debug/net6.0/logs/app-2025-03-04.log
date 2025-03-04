@@ -79,3 +79,55 @@
 2025-03-04 12:15:10.4461 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.Message (HelloGreetingApplication) in 167.3162ms 
 2025-03-04 12:15:10.4461 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.Message (HelloGreetingApplication)' 
 2025-03-04 12:15:10.4461 INFO Request finished HTTP/2 GET https://localhost:7247/HelloGreeting - - - 200 - text/plain;+charset=utf-8 658.5602ms 
+2025-03-04 13:09:39.6947 INFO App is Running 
+2025-03-04 13:09:41.4330 INFO Now listening on: https://localhost:7247 
+2025-03-04 13:09:41.4489 INFO Now listening on: http://localhost:5183 
+2025-03-04 13:09:41.5465 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-04 13:09:41.5465 INFO Hosting environment: Development 
+2025-03-04 13:09:41.5465 INFO Content root path: C:\Users\NIKHIL PRATAP\Desktop\training\pro\HelloGreetingApplication\HelloGreetingApplication\ 
+2025-03-04 13:09:48.8276 INFO Request starting HTTP/2 GET https://localhost:7247/Swagger/index.html - - 
+2025-03-04 13:09:50.0881 INFO Request finished HTTP/2 GET https://localhost:7247/Swagger/index.html - - - 200 - text/html;charset=utf-8 1261.7003ms 
+2025-03-04 13:09:50.2975 INFO Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-04 13:09:50.2975 INFO Request starting HTTP/2 GET https://localhost:7247/Swagger/swagger-ui.css - - 
+2025-03-04 13:09:50.2975 INFO Request starting HTTP/2 GET https://localhost:7247/Swagger/index.css - - 
+2025-03-04 13:09:50.2975 INFO Request starting HTTP/2 GET https://localhost:7247/Swagger/swagger-ui-standalone-preset.js - - 
+2025-03-04 13:09:50.2975 INFO Request starting HTTP/2 GET https://localhost:7247/Swagger/index.js - - 
+2025-03-04 13:09:50.3225 INFO Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 25.0053ms 
+2025-03-04 13:09:50.3225 INFO Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2025-03-04 13:09:50.6502 INFO Request finished HTTP/2 GET https://localhost:7247/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 345.9465ms 
+2025-03-04 13:09:50.6585 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-04 13:09:50.6585 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-04 13:09:50.6585 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2025-03-04 13:09:50.6585 INFO Request finished HTTP/2 GET https://localhost:7247/Swagger/swagger-ui.css - - - 0 154948 text/css 355.0299ms 
+2025-03-04 13:09:50.6585 INFO Request finished HTTP/2 GET https://localhost:7247/Swagger/swagger-ui-standalone-preset.js - - - 0 229223 application/javascript 354.8282ms 
+2025-03-04 13:09:50.6585 INFO Request finished HTTP/2 GET https://localhost:7247/Swagger/index.css - - - 0 202 text/css 355.0585ms 
+2025-03-04 13:09:50.9489 INFO Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 625.8397ms 
+2025-03-04 13:09:51.0564 INFO Request starting HTTP/2 GET https://localhost:7247/Swagger/favicon-16x16.png - - 
+2025-03-04 13:09:51.0564 INFO Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' 
+2025-03-04 13:09:51.0606 INFO Request finished HTTP/2 GET https://localhost:7247/Swagger/favicon-16x16.png - - - 0 665 image/png 4.1478ms 
+2025-03-04 13:09:51.1655 INFO Request starting HTTP/2 GET https://localhost:7247/Swagger/v1/swagger.json - - 
+2025-03-04 13:09:51.2068 INFO Request finished HTTP/2 GET https://localhost:7247/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 41.3007ms 
+2025-03-04 13:10:15.9036 INFO Request starting HTTP/2 GET https://localhost:7247/HelloGreeting?FirstName=nikhil&LastName=pratap - - 
+2025-03-04 13:10:15.9151 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetMessage (HelloGreetingApplication)' 
+2025-03-04 13:10:16.1582 INFO Route matched with {action = "GetMessage", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetMessage(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication). 
+2025-03-04 13:10:16.4368 INFO Get request, greet message first: nikhil, last: pratap 
+2025-03-04 13:10:16.4571 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-04 13:10:16.4939 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetMessage (HelloGreetingApplication) in 320.2025ms 
+2025-03-04 13:10:16.4939 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetMessage (HelloGreetingApplication)' 
+2025-03-04 13:10:16.4939 INFO Request finished HTTP/2 GET https://localhost:7247/HelloGreeting?FirstName=nikhil&LastName=pratap - - - 200 - application/json;+charset=utf-8 591.9456ms 
+2025-03-04 13:10:39.4248 INFO Request starting HTTP/2 POST https://localhost:7247/HelloGreeting/Post Method application/json 42 
+2025-03-04 13:10:39.4388 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.Post (HelloGreetingApplication)' 
+2025-03-04 13:10:39.4388 INFO Route matched with {action = "Post", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(ModelLayer.Model.RequestModel) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication). 
+2025-03-04 13:10:39.5901 INFO Post request| key: nikhil, value: string 
+2025-03-04 13:10:39.5901 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-04 13:10:39.5921 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.Post (HelloGreetingApplication) in 148.9779ms 
+2025-03-04 13:10:39.5921 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.Post (HelloGreetingApplication)' 
+2025-03-04 13:10:39.5921 INFO Request finished HTTP/2 POST https://localhost:7247/HelloGreeting/Post Method application/json 42 - 200 - application/json;+charset=utf-8 169.4764ms 
+2025-03-04 13:10:46.1696 INFO Request starting HTTP/2 POST https://localhost:7247/HelloGreeting/Post Method application/json 39 
+2025-03-04 13:10:46.1762 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.Post (HelloGreetingApplication)' 
+2025-03-04 13:10:46.1762 INFO Route matched with {action = "Post", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(ModelLayer.Model.RequestModel) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication). 
+2025-03-04 13:10:46.2113 INFO Post request| key: 123, value: string 
+2025-03-04 13:10:46.2113 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-04 13:10:46.2113 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.Post (HelloGreetingApplication) in 34.864ms 
+2025-03-04 13:10:46.2113 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.Post (HelloGreetingApplication)' 
+2025-03-04 13:10:46.2113 INFO Request finished HTTP/2 POST https://localhost:7247/HelloGreeting/Post Method application/json 39 - 200 - application/json;+charset=utf-8 45.0477ms 

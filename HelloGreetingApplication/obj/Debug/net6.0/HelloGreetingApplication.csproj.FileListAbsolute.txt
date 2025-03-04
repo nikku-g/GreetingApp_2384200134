@@ -132,3 +132,7 @@ C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\HelloGreetingApplication\obj\Deb
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\HelloGreetingApplication\obj\Debug\net6.0\HelloGreetingApplication.pdb
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\HelloGreetingApplication\obj\Debug\net6.0\HelloGreetingApplication.genruntimeconfig.cache
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC2\HelloGreetingApplication\obj\Debug\net6.0\ref\HelloGreetingApplication.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\HelloGreetingApplication\HelloGreetingApplication\bin\Debug\net6.0\nlog.config
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\HelloGreetingApplication\HelloGreetingApplication\bin\Debug\net6.0\NLog.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\HelloGreetingApplication\HelloGreetingApplication\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\HelloGreetingApplication\HelloGreetingApplication\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

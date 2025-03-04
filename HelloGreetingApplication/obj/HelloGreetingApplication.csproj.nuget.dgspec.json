@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\HelloGreetingApplication.csproj": {}
+    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj"
               },
-              "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj": {
-                "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj"
+              "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj": {
+                "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\HelloGreetingApplication.csproj": {
+    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
+        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
         "projectName": "HelloGreetingApplication",
-        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
+        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\HelloGreetingApplication\\HelloGreetingApplication.csproj",
         "packagesPath": "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\HelloGreetingApplication\\obj\\",
+        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\HelloGreetingApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -166,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ModelLayer\\ModelLayer.csproj": {
+    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ModelLayer\\obj\\",
+        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -231,14 +231,14 @@
         }
       }
     },
-    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj": {
+    "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj",
         "projectName": "ReposatoryLayer",
-        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\ReposatoryLayer.csproj",
+        "projectPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\ReposatoryLayer.csproj",
         "packagesPath": "C:\\Users\\NIKHIL PRATAP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\UC2\\ReposatoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\NIKHIL PRATAP\\Desktop\\training\\pro\\HelloGreetingApplication\\ReposatoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

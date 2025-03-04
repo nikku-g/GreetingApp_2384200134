@@ -12,12 +12,28 @@ namespace BusinessLayer.Service
     public class GreetingBL : IGreetingBL
     {
         /// <summary>
-        /// This method is print Hello World
+        /// This method is return greet message
         /// </summary>
         /// <return>"Hello World"</return>
-        public string GreetMessage()
+        public string GreetMessage(String? FirstName, String? LastName)
         {
-            return "Hello World";
+            if (FirstName!= null && LastName!= null)
+            {
+                return $"Hello {FirstName} {LastName}";
+            }
+            else if (FirstName!= null)
+            {
+                return $"Hello {FirstName}";
+            }
+            else if (LastName!= null)
+            {
+                return $"Hello Mr./ Mrs./ Miss.{LastName}";
+            }
+            else
+            {
+                return "Hello World";
+            }
+            
         }
     }
 }

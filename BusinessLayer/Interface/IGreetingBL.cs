@@ -14,6 +14,6 @@ namespace BusinessLayer.Interface
         /// <summary>
         /// This method is to print message
         /// </summary>
-        public string GreetMessage();
+        public string GreetMessage(String FirstName, String LastName);
     }
 }
