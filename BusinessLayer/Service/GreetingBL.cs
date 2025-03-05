@@ -1,39 +1,60 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Security;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using BusinessLayer.Interface;
+﻿using BusinessLayer.Interface;
+using ModelLayer.Model;
+using ReposatoryLayer.Entity;
+using ReposatoryLayer.Interface;
+using ReposatoryLayer.Service;
 
 namespace BusinessLayer.Service
 {
     public class GreetingBL : IGreetingBL
     {
-        /// <summary>
-        /// This method is return greet message
-        /// </summary>
-        /// <return>"Hello World"</return>
-        public string GreetMessage(String? FirstName, String? LastName)
+        private readonly IGreetingRL _greetingRL;
+
+        public GreetingBL(IGreetingRL greetingRL)
         {
-            if (FirstName!= null && LastName!= null)
+            _greetingRL = greetingRL;
+        }
+
+
+        public string GreetMessage(string firstName, string lastName)
+        {
+            string message = string.Empty;
+
+            if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
             {
-                return $"Hello {FirstName} {LastName}";
+                message = $"Hello {firstName} {lastName}";
             }
-            else if (FirstName!= null)
+            else if (!string.IsNullOrEmpty(firstName))
             {
-                return $"Hello {FirstName}";
+                message = $"Hello {firstName}";
             }
-            else if (LastName!= null)
+            else if (!string.IsNullOrEmpty(lastName))
             {
-                return $"Hello Mr./ Mrs./ Miss.{LastName}";
+                message = $"Hello Mr./ Mrs./ Miss {lastName}";
             }
             else
             {
-                return "Hello World";
+                message = "Hello World";
             }
-            
+
+            // Save the greeting to the database
+            var greetingMessage = new GreetingMessage
+            {
+                Message = message
+            };
+
+            _greetingRL.SaveGreeting(greetingMessage);
+
+            return message;
+        }
+
+        public List<GreetingMessage> GetAllGreetings()
+        {
+            return _greetingRL.GetAllGreetings();
+        }
+        public void SaveGreeting(GreetingMessage greetingMessage)
+        {
+            throw new NotImplementedException();
         }
     }
 }

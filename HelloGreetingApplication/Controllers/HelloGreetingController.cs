@@ -13,6 +13,7 @@ namespace HelloGreetingApplication.Controllers
     [Route("[controller]")]
     public class HelloGreetingController : ControllerBase
     {
+        private readonly Logger _logger = LogManager.GetCurrentClassLogger();
         ResponseModel<string> responseModel;
 
         private readonly IGreetingBL _greetingBl;
