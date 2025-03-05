@@ -204,5 +204,20 @@ namespace HelloGreetingApplication.Controllers
             return Ok(updatedGreeting);  // Return the updated greeting
         }
 
+        [HttpDelete]
+        [Route("DeleteGreetId")]
+        public IActionResult DeleteGreeting(int id)
+        {
+            // Call the DeleteGreeting method in the business layer
+            var success = _greetingBL.DeleteGreeting(id);
+
+            if (!success)
+            {
+                return NotFound($"Greeting with ID {id} not found.");
+            }
+
+            return NoContent();  // Successfully deleted, return 204 No Content
+        }
+
     }
 }

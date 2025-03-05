@@ -15,5 +15,9 @@ namespace ReposatoryLayer.Interface
 
         // New method for updating a greeting message
         GreetingMessage UpdateGreeting(GreetingMessage greetingMessage);
+
+        // New method for deleting a greeting message
+        bool DeleteGreeting(int id);
+
     }
 }

@@ -49,6 +49,19 @@ namespace ReposatoryLayer.Service
                 return existingGreeting;
             }
             return null;
+
+        }
+
+        public bool DeleteGreeting(int id)
+        {
+            var greetingMessage = _context.GreetingMessages.FirstOrDefault(g => g.Id == id);
+            if (greetingMessage != null)
+            {
+                _context.GreetingMessages.Remove(greetingMessage);
+                _context.SaveChanges();
+                return true;  // Successfully deleted
+            }
+            return false;  // Greeting message with the given id does not exist
         }
     }
 }

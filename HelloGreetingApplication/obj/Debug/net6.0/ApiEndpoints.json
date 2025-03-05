@@ -38,6 +38,22 @@
   },
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
+    "Method": "DeleteGreeting",
+    "RelativePath": "HelloGreeting/DeleteGreetId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "EditGreeting",
     "RelativePath": "HelloGreeting/EditGreeting",
     "HttpMethod": "PUT",

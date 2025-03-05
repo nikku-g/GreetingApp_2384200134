@@ -22,5 +22,8 @@ namespace BusinessLayer.Interface
 
         // New method to update a greeting message
         GreetingMessage UpdateGreeting(int id, string newMessage);
+
+        // New method for deleting a greeting message
+        bool DeleteGreeting(int id);
     }
 }

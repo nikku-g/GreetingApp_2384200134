@@ -74,5 +74,9 @@ namespace BusinessLayer.Service
             return null;  // If greeting with the given id does not exist
         }
 
+        public bool DeleteGreeting(int id)
+        {
+            return _greetingRL.DeleteGreeting(id);  // Call repository layer to delete
+        }
     }
 }
