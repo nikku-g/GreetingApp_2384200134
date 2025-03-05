@@ -170,5 +170,18 @@ namespace HelloGreetingApplication.Controllers
             responseModel.Data = null;
             return Ok(responseModel);
         }
+
+        /// <summary>
+        /// Method to list all the greeting messages
+        /// </summary>
+        /// <returns>List of messages</returns>
+        [HttpGet]
+        [Route("list of greeting")]
+        public IActionResult GetAllGreetings()
+        {
+            var greetings = _greetingBL.GetAllGreetings();
+            return Ok(greetings);
+        }
+
     }
 }

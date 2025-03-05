@@ -33,7 +33,7 @@
         }
       }
     },
-    "/HelloGreeting/GetGreetingById/{id}": {
+    "/HelloGreeting/GreetingById": {
       "get": {
         "tags": [
           "HelloGreeting"
@@ -41,8 +41,7 @@
         "parameters": [
           {
             "name": "id",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -185,6 +184,18 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/HelloGreeting/list of greeting": {
+      "get": {
+        "tags": [
+          "HelloGreeting"
+        ],
         "responses": {
           "200": {
             "description": "OK"
