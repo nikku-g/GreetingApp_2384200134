@@ -56,5 +56,12 @@ namespace BusinessLayer.Service
         {
             throw new NotImplementedException();
         }
+
+
+        public GreetingMessage FindGreetingById(int id)
+        {
+            return _greetingRL.GetGreetingById(id);
+        }
+        
     }
 }

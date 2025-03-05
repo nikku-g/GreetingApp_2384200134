@@ -29,6 +29,11 @@ namespace ReposatoryLayer.Service
             return _context.GreetingMessages.ToList();
         }
 
+        public GreetingMessage GetGreetingById(int id)
+        {
+            return _context.GreetingMessages.FirstOrDefault(g => g.Id == id); 
+        }
+
         GreetingMessage IGreetingRL.SaveGreeting(GreetingMessage greetingMessage)
         {
             throw new NotImplementedException();

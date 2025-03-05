@@ -11,5 +11,6 @@ namespace ReposatoryLayer.Interface
     {
         GreetingMessage SaveGreeting(GreetingMessage greetingMessage);
         List<GreetingMessage> GetAllGreetings();
+        GreetingMessage GetGreetingById(int id);
     }
 }

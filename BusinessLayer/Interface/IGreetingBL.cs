@@ -18,5 +18,6 @@ namespace BusinessLayer.Interface
         public string GreetMessage(String FirstName, String LastName);
         void SaveGreeting(GreetingMessage greetingMessage);
         List<GreetingMessage> GetAllGreetings();
+        GreetingMessage FindGreetingById(int id);
     }
 }

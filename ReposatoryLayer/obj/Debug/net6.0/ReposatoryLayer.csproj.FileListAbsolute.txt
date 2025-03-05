@@ -56,3 +56,17 @@ C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC5\ReposatoryLayer\obj\Debug\net6.0
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC5\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.pdb
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC5\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.genruntimeconfig.cache
 C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC5\ReposatoryLayer\obj\Debug\net6.0\ref\ReposatoryLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\bin\Debug\net6.0\ReposatoryLayer.deps.json
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\bin\Debug\net6.0\ReposatoryLayer.runtimeconfig.json
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\bin\Debug\net6.0\ReposatoryLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\bin\Debug\net6.0\ReposatoryLayer.pdb
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.csproj.AssemblyReference.cache
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.AssemblyInfoInputs.cache
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.AssemblyInfo.cs
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\refint\ReposatoryLayer.dll
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.pdb
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ReposatoryLayer.genruntimeconfig.cache
+C:\Users\NIKHIL PRATAP\Desktop\training\pro\UC4 - Copy\ReposatoryLayer\obj\Debug\net6.0\ref\ReposatoryLayer.dll

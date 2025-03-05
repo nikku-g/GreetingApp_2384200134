@@ -16,11 +16,11 @@ namespace HelloGreetingApplication.Controllers
         private readonly Logger _logger = LogManager.GetCurrentClassLogger();
         ResponseModel<string> responseModel;
 
-        private readonly IGreetingBL _greetingBl;
+        private readonly IGreetingBL _greetingBL;
 
         public HelloGreetingController(IGreetingBL greetingBL)
         {
-            _greetingBl = greetingBL;
+            _greetingBL = greetingBL;
         }
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace HelloGreetingApplication.Controllers
         {
 
             logger.Info($"Get request, greet message first: {FirstName}, last: {LastName}");
-            string message = _greetingBl.GreetMessage(FirstName, LastName);
+            string message = _greetingBL.GreetMessage(FirstName, LastName);
             responseModel = new ResponseModel<string>();
             {
                 responseModel.Success = true;
@@ -44,7 +44,41 @@ namespace HelloGreetingApplication.Controllers
 
 
         private static readonly Logger logger = LogManager .GetCurrentClassLogger();
-        
+
+
+        /// <summary>
+        /// This method calls the method of BusinessLayer to fetch the greeting message by its Id
+        /// </summary>
+        /// <param name="id">Greeting message Id</param>
+        /// <returns>Greeting message for the specified Id</returns>
+        [HttpGet]
+        [Route("GreetingById")]
+        public IActionResult GetGreetingById(int id)
+        {
+            logger.Info($"Get request for greeting with Id: {id}");
+
+            var greetingMessage = _greetingBL.FindGreetingById(id);
+
+            if (greetingMessage == null)
+            {
+                responseModel = new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = "Greeting not found",
+                    Data = null
+                };
+                return NotFound(responseModel);
+            }
+
+            responseModel = new ResponseModel<string>
+            {
+                Success = true,
+                Message = "Greeting found",
+                Data = greetingMessage.Message
+            };
+
+            return Ok(responseModel);
+        }
 
 
         /// <summary>
