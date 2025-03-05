@@ -19,5 +19,8 @@ namespace BusinessLayer.Interface
         void SaveGreeting(GreetingMessage greetingMessage);
         List<GreetingMessage> GetAllGreetings();
         GreetingMessage FindGreetingById(int id);
+
+        // New method to update a greeting message
+        GreetingMessage UpdateGreeting(int id, string newMessage);
     }
 }

@@ -38,5 +38,17 @@ namespace ReposatoryLayer.Service
         {
             throw new NotImplementedException();
         }
+
+        public GreetingMessage UpdateGreeting(GreetingMessage greetingMessage)
+        {
+            var existingGreeting = _context.GreetingMessages.FirstOrDefault(g => g.Id == greetingMessage.Id);
+            if (existingGreeting != null)
+            {
+                existingGreeting.Message = greetingMessage.Message;
+                _context.SaveChanges();  // Save the updated greeting message to the database
+                return existingGreeting;
+            }
+            return null;
+        }
     }
 }

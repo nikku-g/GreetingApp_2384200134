@@ -38,6 +38,27 @@
   },
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
+    "Method": "EditGreeting",
+    "RelativePath": "HelloGreeting/EditGreeting",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "greetingMessage",
+        "Type": "ReposatoryLayer.Entity.GreetingMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "Get",
     "RelativePath": "HelloGreeting/Get Method",
     "HttpMethod": "GET",
@@ -49,7 +70,7 @@
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "GetGreetingById",
-    "RelativePath": "HelloGreeting/GreetingById",
+    "RelativePath": "HelloGreeting/GetGreetById",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

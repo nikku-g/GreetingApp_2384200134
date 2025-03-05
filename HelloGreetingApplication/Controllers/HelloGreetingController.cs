@@ -2,6 +2,7 @@ using BusinessLayer.Interface;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.Model;
 using NLog;
+using ReposatoryLayer.Entity;
 
 namespace HelloGreetingApplication.Controllers
 {
@@ -52,7 +53,7 @@ namespace HelloGreetingApplication.Controllers
         /// <param name="id">Greeting message Id</param>
         /// <returns>Greeting message for the specified Id</returns>
         [HttpGet]
-        [Route("GreetingById")]
+        [Route("GetGreetById")]
         public IActionResult GetGreetingById(int id)
         {
             logger.Info($"Get request for greeting with Id: {id}");
@@ -181,6 +182,26 @@ namespace HelloGreetingApplication.Controllers
         {
             var greetings = _greetingBL.GetAllGreetings();
             return Ok(greetings);
+        }
+
+        [HttpPut]
+        [Route("EditGreeting")]
+        public IActionResult EditGreeting(int id, [FromBody] GreetingMessage greetingMessage)
+        {
+            if (greetingMessage == null || string.IsNullOrWhiteSpace(greetingMessage.Message))
+            {
+                return BadRequest("Invalid greeting message.");
+            }
+
+            // Call the UpdateGreeting method from the business layer to update the message
+            var updatedGreeting = _greetingBL.UpdateGreeting(id, greetingMessage.Message);
+
+            if (updatedGreeting == null)
+            {
+                return NotFound($"Greeting with ID {id} not found.");
+            }
+
+            return Ok(updatedGreeting);  // Return the updated greeting
         }
 
     }

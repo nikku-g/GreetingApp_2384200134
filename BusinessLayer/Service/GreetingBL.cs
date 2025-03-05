@@ -62,6 +62,17 @@ namespace BusinessLayer.Service
         {
             return _greetingRL.GetGreetingById(id);
         }
-        
+
+        public GreetingMessage UpdateGreeting(int id, string newMessage)
+        {
+            var existingGreeting = _greetingRL.GetGreetingById(id);
+            if (existingGreeting != null)
+            {
+                existingGreeting.Message = newMessage;
+                return _greetingRL.SaveGreeting(existingGreeting);  // Save the updated greeting
+            }
+            return null;  // If greeting with the given id does not exist
+        }
+
     }
 }

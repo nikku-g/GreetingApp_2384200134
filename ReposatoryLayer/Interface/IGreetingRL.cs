@@ -12,5 +12,8 @@ namespace ReposatoryLayer.Interface
         GreetingMessage SaveGreeting(GreetingMessage greetingMessage);
         List<GreetingMessage> GetAllGreetings();
         GreetingMessage GetGreetingById(int id);
+
+        // New method for updating a greeting message
+        GreetingMessage UpdateGreeting(GreetingMessage greetingMessage);
     }
 }
