@@ -10,49 +10,41 @@ using ReposatoryLayer.Service;
 
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 
-try
-{
-    logger.Info("App is Running");
+logger.Info("App is Running");
 
-    var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
-    // Set up NLog logging
-    builder.Logging.ClearProviders();
-    builder.Host.UseNLog();
+// Set up NLog logging
+builder.Logging.ClearProviders();
+builder.Host.UseNLog();
 
-    // Add services to the container.
-    builder.Services.AddControllers();
+// Add services to the container.
+builder.Services.AddControllers();
 
-    // Set up database context with a connection string
-    var connectionString = builder.Configuration.GetConnectionString("SqlConnection");  // Make sure this key matches the key in appsettings.json
-    builder.Services.AddDbContext<GreetingContext>(options => options.UseSqlServer(connectionString));
+// Set up database context with a connection string
+var connectionString = builder.Configuration.GetConnectionString("SqlConnection");  // Make sure this key matches the key in appsettings.json
+builder.Services.AddDbContext<GreetingContext>(options => options.UseSqlServer(connectionString));
 
-    // Register Business Layer and Repository
-    builder.Services.AddScoped<IGreetingBL, GreetingBL>();
-    builder.Services.AddScoped<IGreetingRL, GreetingRL>();
+// Register Business Layer and Repository
+builder.Services.AddScoped<IGreetingBL, GreetingBL>();
+builder.Services.AddScoped<IGreetingRL, GreetingRL>();
 
-    // Add Swagger for API documentation
-    builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
+// Add Swagger for API documentation
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-    var app = builder.Build();
+var app = builder.Build();
 
-    // Configure Swagger
-    app.UseSwagger();
-    app.UseSwaggerUI();
+// Use global exception handling middleware
+app.UseMiddleware<HelloGreetingApplication.Middleware.ExceptionMiddleware>();
 
-    // Configure the HTTP request pipeline.
-    app.UseHttpsRedirection();
-    app.UseAuthorization();
-    app.MapControllers();
+// Configure Swagger
+app.UseSwagger();
+app.UseSwaggerUI();
 
-    app.Run();
-}
-catch (Exception ex)
-{
-    logger.Error(ex, "An error occurred while starting the application");
-}
-finally
-{
-    LogManager.Shutdown();
-}
+// Configure the HTTP request pipeline.
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+
+app.Run();
